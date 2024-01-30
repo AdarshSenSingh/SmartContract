@@ -1,0 +1,40 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1706214676265,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x766813ab903dc919803ca239e1e886849bf127a2fafe057cf39a2fb0c5cbf74c",
+        "contractName": "willDecision",
+        "bytecode": "608060405260015f806101000a81548160ff021916908315150217905550348015610028575f80fd5b5060d0806100355f395ff3fe6080604052348015600e575f80fd5b50600436106026575f3560e01c8063e3ec842214602a575b5f80fd5b60306044565b604051603b91906083565b60405180910390f35b5f600115155f8054906101000a900460ff16151503606457600190506068565b5f90505b90565b5f8115159050919050565b607d81606b565b82525050565b5f60208201905060945f8301846076565b9291505056fea26469706673582212200fd91d9ca652c4c62910de257511564d3ca2fad67773cbcb7505c9a541e62c6164736f6c63430008160033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x766813ab903dc919803ca239e1e886849bf127a2fafe057cf39a2fb0c5cbf74c": [
+      {
+        "inputs": [],
+        "name": "validateIsAlive",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
